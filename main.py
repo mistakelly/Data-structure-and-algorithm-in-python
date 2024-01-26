@@ -8,4 +8,19 @@ def print_even():
             print(number)
         number += 1
 
+
 print_even()
+
+
+"""second illustration of the same code but with different approach"""
+
+
+def print_even():
+    number = 2
+    while number <= 100:
+        print(number)
+        number += 2
+
+
+print_even()
+
