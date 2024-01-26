@@ -39,7 +39,9 @@ initially, they started to observing that, is like one's code runs faster than
 other right ??,they now start finding a way to calculate it how much time a program
 takes to complete and space the program also takes in our computer during runtime, and 
 that was when they came up with * TIME COMPLEXITY AND SPACE COMPLEXITY. these two help
-us to know how much time and space our program takes during runtime,[time efficiency](main.py)
+us to know how much time and space our program takes during runtime, click link to see how
+two different codes solves a problem in with two different approach, would want to anaylyse
+the code that runs faster than another yourself[check time efficiency](main.py)
 that way we can write efficient programs.
 and the whole act of managing all of these to ac
 that is when they started doing what ??, looking for a way to manage
