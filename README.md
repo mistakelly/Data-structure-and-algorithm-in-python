@@ -14,7 +14,8 @@ good to go with Data-structure.
 
 * so what is DATA ?
     as we all know in basic computer, data is what ? 
-    an unprocessed raw facts right ??
+    an unprocessed raw facts right ?? the data can be
+    type such as images, documents, 
 
 then now what is Data-Structure ? 
 
