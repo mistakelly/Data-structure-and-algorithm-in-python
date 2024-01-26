@@ -31,6 +31,13 @@ in the early days of programming, programmeers only have one
 wish or mechanism of anaylysing code, which is ?? 😂 guess you
 must have known the answer 😂😂, tell me nahhhh 🙏🙏, you don't 
 want to talk abi ?? ok oo let me answer which is *("is the code working?")
+once their code is working that is like the deal breaker for them.
+it made sense that way, not untill developers started noticing that 
+two or different persons can actually solve or implement a task in different
+ways and still get the same result, and now that their codes that were working
+initially, they started to observer that, is like one's code runs faster than 
+other right ??, that is when they started doing what ??, looking for a way to manage
+the data's which was making the slow
     
 
 
