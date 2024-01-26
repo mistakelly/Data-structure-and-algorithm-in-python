@@ -14,6 +14,7 @@ print_even()
 
 """second illustration of the same code but with different approach"""
 
+print("---------------------------------second example------------------------------------------")
 
 def print_even():
     number = 2
