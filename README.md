@@ -20,7 +20,10 @@ good to go with Data-structure.
 
 * then now what is Data-Structure ?
     Data structure is a way of storing data in the 
-    computer so it can be used effeciently
+    computer, so it can be used efficiently.
+    its basically the art of arranging the data in
+    our computer in a way that can be easily retrieved
+
 
 
 
