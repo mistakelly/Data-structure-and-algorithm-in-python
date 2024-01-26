@@ -25,3 +25,12 @@ def print_even():
 
 print_even()
 
+"""which code runs faster ??"""
+
+"""
+the second one right ??
+because the first one loop has to go over a 100 times before completion
+but the second code loop has to go over a 50 times to complete execution
+so now we say in terms of time efficiency the second code is more efficient
+than the first code.
+"""
