@@ -49,4 +49,4 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 1. Arrays
 ![array image](arrar.png)
 2. linked->list
-![linked->list](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fdata-structure-tutorial%2Flinked-list-in-data-structure&psig=AOvVaw1zVeo92PJBA2l8uFrJMVLc&ust=1706398262522000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDCtoSb_IMDFQAAAAAdAAAAABAH)
+![linked->list](https://www.simplilearn.com/ice9/free_resources_article_thumb/Linked-List-Soni/singly-linked-list.png)
