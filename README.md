@@ -12,5 +12,10 @@ we first of have to understand some concepts right ??
 if we are able to answer these three question I think and believe
 good to go with Data-structure.
 
+* so what is DATA ?
+    as we all know in basic computer, data is what ? 
+    an unprocessed raw facts right ??
+
+then now what is Data-Structure ? 
 
 ![array image](arrar.png)
