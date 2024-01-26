@@ -53,4 +53,4 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 3. stack Data-structure
 ![stack](https://miro.medium.com/v2/resize:fit:1200/1*IX2GB_nYW7fP2LckB1_-cA.png)
 4. queue Data-structure
-![queue](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726165642/Queue-Data-structure1.png)
+![queue](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221213113312/Queue-Data-Structures.png)
