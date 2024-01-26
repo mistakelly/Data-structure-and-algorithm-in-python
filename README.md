@@ -19,7 +19,8 @@ good to go with Data-structure.
     that can be processed by the computer.
 
 * then now what is Data-Structure ?
-    
+    Data structure is a way of storing data in the 
+    computer so it can be used effeciently
 
 
 
