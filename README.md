@@ -25,6 +25,13 @@ good to go with Data-structure.
     a way that allows the computer to perform operations
     on the data efficiently.
 
+## why do we need DATA-STRUCTURE ?
+
+in the early days of programming, programmeers only have one 
+wish or mechanism of anaylysing code, which is ?? 😂 guess you
+must have known the answer 
+    
+
 
 
 
