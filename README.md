@@ -54,3 +54,5 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 ![stack](https://miro.medium.com/v2/resize:fit:1200/1*IX2GB_nYW7fP2LckB1_-cA.png)
 4. queue Data-structure
 ![queue](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221213113312/Queue-Data-Structures.png)
+5. Tree Data0-structure
+![Tree](https://media.geeksforgeeks.org/wp-content/cdn-uploads/binary-tree-to-DLL.png)
