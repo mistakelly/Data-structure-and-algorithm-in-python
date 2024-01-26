@@ -42,15 +42,11 @@ that was when they came up with * TIME COMPLEXITY AND SPACE COMPLEXITY. these tw
 us to know how much time and space our program takes during runtime, click link to see how
 two different codes solves a problem in with two different approach, would want to anaylyse
 the code that runs faster than another yourself[check time efficiency](main.py)
-that way we can write efficient programs.
-and the whole act of managing all of these to ac
-that is when they started doing what ??, looking for a way to manage
-the data's which was making the slow
+that way we can write efficient programs using the right DATA-STRUCTURE.
 
 
-    
-
-
-
-
+## we have various types of DATA-STRUCTURE:
+1. Arrays
 ![array image](arrar.png)
+2. linked->list
+![linked->list](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simplilearn.com%2Ftutorials%2Fdata-structure-tutorial%2Flinked-list-in-data-structure&psig=AOvVaw1zVeo92PJBA2l8uFrJMVLc&ust=1706398262522000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJDCtoSb_IMDFQAAAAAdAAAAABAH)
