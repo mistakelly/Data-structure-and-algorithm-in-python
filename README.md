@@ -22,7 +22,8 @@ good to go with Data-structure.
     Data structure is a way of storing data in the 
     computer, so it can be used efficiently.
     its basically the art of arranging the data in
-    our computer in a way that can be easily retrieved
+    a way that allows the computer to perform operations
+    on the data efficiently.
 
 
 
