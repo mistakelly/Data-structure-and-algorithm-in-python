@@ -51,4 +51,4 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 2. linked->list
 ![linked->list](https://www.simplilearn.com/ice9/free_resources_article_thumb/Linked-List-Soni/singly-linked-list.png)
 3. stack
-![stack](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.boardinfinity.com%2Fblog%2Fstacks-in-data-structure%2F&psig=AOvVaw2fCGY6_l_tuI7k17eLefp2&ust=1706398358068000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCNC627eb_IMDFQAAAAAdAAAAABAJ)
+![stack]()
