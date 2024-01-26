@@ -55,6 +55,6 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 4. queue Data-structure
 ![queue](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221213113312/Queue-Data-Structures.png)
 5. Tree Data-structure
-![Tree](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGNPadzVNseopina_aCbzA0ipbJsAGvH-OXThwmO83p1iqSAvFlonN6Yb2jbMxWa0Jzh8&usqp=CAU)
+![Tree](https://lh3.googleusercontent.com/proxy/n8oN5xF2SrSuYyQVcDamr-0lFO_hCEEbCQF26OzE6g46lexnAXuQLOTpDz74hy0y1pXhsYg0zHq_DSUtdWXdwMC0WVnbb64Q0iEz1fvFxmDZLZrCYctc5TugMXcZ0puU)
 6. Graph Data-structure
 ![Graph](https://cdn-media-1.freecodecamp.org/images/vQ77VuGVlTR95GgMxzyKqydIqoRJcPcWrigy)
