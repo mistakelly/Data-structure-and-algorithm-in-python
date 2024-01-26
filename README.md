@@ -35,8 +35,13 @@ once their code is working that is like the deal breaker for them.
 it made sense that way, not untill developers started noticing that 
 two or different persons can actually solve or implement a task in different
 ways and still get the same result, and now that their codes that were working
-initially, they started to observer that, is like one's code runs faster than 
-other right ??, that is when they started doing what ??, looking for a way to manage
+initially, they started to observing that, is like one's code runs faster than 
+other right ??,they now start finding a way to calculate it how much time a program
+takes to complete and space the program also takes in our computer during runtime, and 
+that was when they came up with * TIME COMPLEXITY AND SPACE COMPLEXITY. these two help
+helps us to know how much time and space our program takes during runtime, that way we can 
+write efficient programs. and the whole act of managing all of these to ac
+that is when they started doing what ??, looking for a way to manage
 the data's which was making the slow
     
 
