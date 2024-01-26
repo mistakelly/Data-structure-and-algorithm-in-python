@@ -58,3 +58,6 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 ![Tree](https://lh3.googleusercontent.com/proxy/n8oN5xF2SrSuYyQVcDamr-0lFO_hCEEbCQF26OzE6g46lexnAXuQLOTpDz74hy0y1pXhsYg0zHq_DSUtdWXdwMC0WVnbb64Q0iEz1fvFxmDZLZrCYctc5TugMXcZ0puU)
 6. Graph Data-structure
 ![Graph](https://cdn-media-1.freecodecamp.org/images/vQ77VuGVlTR95GgMxzyKqydIqoRJcPcWrigy)
+
+* let's look at Array Datastructure
+# ARRAY
