@@ -52,3 +52,4 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 ![linked->list](https://www.simplilearn.com/ice9/free_resources_article_thumb/Linked-List-Soni/singly-linked-list.png)
 3. stack
 ![stack](https://miro.medium.com/v2/resize:fit:1200/1*IX2GB_nYW7fP2LckB1_-cA.png)
+4. ![queue](https://media.geeksforgeeks.org/wp-content/cdn-uploads/20230726165642/Queue-Data-structure1.png)
