@@ -18,7 +18,8 @@ good to go with Data-structure.
     any type such as images, documents, numbers, strings
     that can be processed by the computer.
 
-then now what is Data-Structure ? 
+* then now what is Data-Structure ?
+    
 
 
 
