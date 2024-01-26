@@ -29,7 +29,8 @@ good to go with Data-structure.
 
 in the early days of programming, programmeers only have one 
 wish or mechanism of anaylysing code, which is ?? 😂 guess you
-must have known the answer 
+must have known the answer 😂😂, tell me nahhhh 🙏🙏, you don't 
+want to talk abi ?? ok oo let me answer which is *("is the code working?")
     
 
 
