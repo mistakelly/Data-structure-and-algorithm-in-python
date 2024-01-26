@@ -16,7 +16,7 @@ good to go with Data-structure.
     as we all know in basic computer, data is what ? 
     an unprocessed raw facts right ?? the data can be
     type such as images, documents, numbers, strings
-    that can be processed by the computer to get 
+    that can be processed by the computer.
 
 then now what is Data-Structure ? 
 
