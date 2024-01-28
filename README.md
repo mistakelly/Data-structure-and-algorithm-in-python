@@ -71,4 +71,4 @@ characteristics of arrays
     that is it cannot store elements of different types
 3. arrays are indexed from 0
 4. deleting and an element in an array takes constant time
-    0()
+    0(1)
