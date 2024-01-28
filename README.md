@@ -70,4 +70,5 @@ characteristics of arrays
 2. the elements of array are of the same type
     that is it cannot store elements of different types
 3. arrays are indexed from 0
-4. deleting and an element in an array takes a constant tim
+4. deleting and an element in an array takes constant time
+    
