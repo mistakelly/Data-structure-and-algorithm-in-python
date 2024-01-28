@@ -69,3 +69,4 @@ characteristics of arrays
 1. arrays store codes in contigous block
 2. the elements of array are of the same type
     that is it cannot store elements of different types
+3. arrays are indexed from 0
