@@ -73,4 +73,3 @@ characteristics of arrays
 4. deleting and an element in an array takes constant time
     O(1).
 5. searching an element in an array takes big O of n O(n)
-    meaning it has to search each block 
