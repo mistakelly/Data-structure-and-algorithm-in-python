@@ -67,4 +67,4 @@ lets talk bout arrays, wat are arrays ?? array are a type of Datastructure that 
 characteristics of arrays 
 
 1. arrays store codes in contigous block
-2. 
+2. they 
