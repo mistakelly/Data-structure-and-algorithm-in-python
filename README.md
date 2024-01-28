@@ -73,4 +73,5 @@ characteristics of arrays
 4. deleting and an element in an array takes constant time
     O(1).
 5. searching an element in an array takes big O of n O(n).
-6. formular of 
+6. formular to find the last index is size - 1
+7. arrays are 
