@@ -63,3 +63,7 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 # ARRAY
 
 lets talk bout arrays, wat are arrays ?? array are a type of Datastructure that stores elements in a contigous memeory location.
+
+characteristics of arrays 
+
+1. arrays store codes in contigous block
