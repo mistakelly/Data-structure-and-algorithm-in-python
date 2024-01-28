@@ -61,3 +61,5 @@ that way we can write efficient programs using the right DATA-STRUCTURE.
 
 * let's look at Array Datastructure
 # ARRAY
+
+lets talk bout arrays
