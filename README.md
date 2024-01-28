@@ -72,4 +72,4 @@ characteristics of arrays
 3. arrays are indexed from 0
 4. deleting and an element in an array takes constant time
     0(1).
-5. searching an element in an array takes big 
+5. searching an element in an array takes big O of 
