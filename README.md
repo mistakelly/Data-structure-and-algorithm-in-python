@@ -77,4 +77,3 @@ characteristics of arrays
 7. arrays are mutable (we can change the value of an array)
 
 
-
