@@ -76,4 +76,6 @@ characteristics of arrays
 6. formular to find the last index is size - 1
 7. arrays are mutable (we can change the value of an array)
 
-## Linked-
+## Linked->lists
+
+what is linked->list Datastructure ??
