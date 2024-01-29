@@ -80,4 +80,4 @@ characteristics of arrays
 
 what is linked->list Datastructure ??
 
-linked -> list is a type of Datastructure that stores elements in memory using nodes 
+linked -> list is a type of Datastructure that stores elements in memory using nodes where 
