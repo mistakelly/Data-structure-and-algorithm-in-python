@@ -80,4 +80,4 @@ characteristics of arrays
 
 what is linked->list Datastructure ??
 
-
+linked
