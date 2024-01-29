@@ -85,4 +85,4 @@ linked -> list is a type of Datastructure that stores elements in memory in form
 ## Characteristics of LINKED->LISTS
 
 1. they are not stored in contigous Memory location.
-
+2. they ar
