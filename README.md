@@ -75,3 +75,4 @@ characteristics of arrays
 5. searching an element in an array takes big O of n O(n).
 6. formular to find the last index is size - 1
 7. arrays are mutable (we can change the value of an array)
+
