@@ -75,14 +75,3 @@ characteristics of arrays
 5. searching an element in an array takes big O of n O(n).
 6. formular to find the last index is size - 1
 7. arrays are mutable (we can change the value of an array)
-
-# Linked->lists
-
-what is linked->list Datastructure ??
-
-linked -> list is a type of Datastructure that stores elements in memory in form of  nodes where a node has the element and a pointer to the next node, the reason for the pointer is a way to have access to the next node that has the next element in the memory,unlike arrays Linked->lists are not stored in Contigous Memory Locations.
-
-## Characteristics of LINKED->LISTS
-
-1. they are not stored in contigous Memory location.
-2. Elements are stored in form of Nodes
