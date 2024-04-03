@@ -11,7 +11,7 @@ def swapPositions(lst, pos1, pos2):
     if pos1 <= 0 or pos2 <= 0:
         return "sorry position must start from 1"
     if pos1 > size or pos2 > size:
-        return f"Sorry positions are out of the list index list (list size {size})"
+        return f"Sorry positions are out of the list index (list size {size})"
     if pos1 == pos2:
         return f"Positions are the same, no swapping needed"
 
@@ -26,6 +26,6 @@ numbers = [23, 65, 19, 90, 42, 56, 71, 5, 33, 78,
            12, 88, 29, 50, 10, 47, 62, 3, 85, 15,
            37, 69, 24, 81, 8, 45, 60, 17, 95, 28]
 
-values = swapPositions(numbers, 3, 3)
+values = swapPositions(numbers, 5, 7)
 print(values)
 
