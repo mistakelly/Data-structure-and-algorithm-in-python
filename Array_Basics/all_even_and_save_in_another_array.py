@@ -13,3 +13,4 @@ def even_element(lst):
 
 even_list = even_element([1, 3, 4, 8, 6, 7])
 print(even_list)
+
