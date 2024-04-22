@@ -47,32 +47,3 @@ words = ["flower","flow","flight"]
 model = Solution()
 result = model.removeElement(words)
 print(result)
-
-
-
-# class Solution:
-#     def removeDuplicates(self, nums: List[int]) -> int:
-#         # initialize empty array
-
-#         # not efficient for negative numbers,
-#         # it places negative numbers at the end of the list, it was meant to be in front
-#         # new_set = set(nums)
-#         # tmp = list(new_set)
-#         # count = len(new_set)
-
-#         # nums.clear()
-
-#         # for i in tmp:
-#         #     nums.append(i)
-#         # return count
-        
-#         unique = 1
-#         count = 1
-#         for i in range(len(nums) - 1):
-#             if nums[i] != nums[i + 1]:
-#                 nums[unique] = nums[i + 1]
-#                 count += 1
-#                 unique += 1
-
-#         return count
-# # 
