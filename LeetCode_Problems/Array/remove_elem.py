@@ -61,14 +61,23 @@ class Solution:
         if not nums or len(nums) <= 0:
             return 0
 
-        i = 0
-        while i < len(nums):
-            if nums[i] == val:
-                nums.pop(i)
-            else:
-                i += 1
+        # i = 0
+        # while i < len(nums):
+        #     if nums[i] == val:
+        #         nums.pop(i)
+        #     else:
+        #         i += 1
 
-        return i
+
+        ptr = 0
+
+        for i in range(len(nums)):
+            if nums[i] != val:
+                nums[ptr] = nums[i]
+                ptr += 1
+
+        print(nums)
+        return ptr
 
 
 arr = [0,1,2,2,3,0,4,2]
