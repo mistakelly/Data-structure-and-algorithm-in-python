@@ -38,6 +38,22 @@ class Solution:
                 return tmp_dic[diff], i
             tmp_dic[nums[i]] = i
 
+    def productExceptSelf(self, nums: List[int]) -> List[int]:
+        # HELP ME GOD
+
+        answer = []
+
+        for i in range(len(nums)):
+            product = 1
+            print('nums[i]', nums[i])
+            for j in range(len(nums)):
+                if i != j:
+                    product *= nums[j]
+                    
+                answer.append(product)
+        print(answer)
+        
+
 
 
     
@@ -53,4 +69,8 @@ reverse_str = model.reverseString(s)
 arr = [2,7,11,15]
 target = 9
 two_sum = model.twoSum(arr, target)
-print(two_sum)
+# print(two_sum)
+
+# PRODUCT EXCEPT SELF
+product = model.productExceptSelf([1,2,3,4])
+print(product)
