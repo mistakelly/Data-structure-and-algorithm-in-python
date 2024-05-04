@@ -50,8 +50,10 @@ class Solution:
                 if i != j:
                     product *= nums[j]
                     
-                answer.append(product)
-        print(answer)
+            answer.append(product)
+
+        return answer
+
         
 
 
