@@ -26,6 +26,7 @@ numbers = [23, 65, 19, 90, 42, 56, 71, 5, 33, 78,
            12, 88, 29, 50, 10, 47, 62, 3, 85, 15,
            37, 69, 24, 81, 8, 45, 60, 17, 95, 28]
 
-values = swapPositions(numbers, 5, 7)
+values = swapPositions(numbers, 1, 31)
 print(values)
+
 
