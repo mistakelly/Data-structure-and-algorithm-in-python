@@ -51,16 +51,33 @@ def twoSum(nums: List[int], target: int) -> List[int]:
     right_operand = 0
 
     # not the best solution, will improve when I learn bout Hashmap Datastructure.
-    for i in range (len(nums)):
-        for j in range(i, len(nums)):
-            if nums[i] + nums[j] == target:
-                left_operand = i
-                right_operand = i + 1
+    # for i in range (len(nums)):
+    #     for j in range(i, len(nums)):
+    #         if nums[i] + nums[j] == target:
+    #             left_operand = i
+    #             right_operand = i + 1
         
-    return [left_operand, right_operand]
+    # return [left_operand, right_operand]
 
 
-arr2 = [2,7, 3, 11,15]
+    tmp = {}
+
+    for i in range(len(nums)):
+        complement = target - nums[i]
+
+        print('complement', complement)
+
+        if complement in tmp:
+            print('overhere')
+            return [tmp[complement], i]
+        
+        tmp[nums[i]] = i
+
+        print('i', i)
+        print('tmp', tmp)
+
+
+arr2 = [2, 7, 3, 11,15]
 target = 10
 result = twoSum(arr2, target)
 print(result)
