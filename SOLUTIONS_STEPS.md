@@ -11,3 +11,17 @@
 2. Decided to use a two-pointer approach for efficiency.
 3. Avoided using `pop()` to reduce time complexity.
 4. Tested the solution with various edge cases.
+
+
+# GENERAL PROBLEMS
+## Problem 1: Palindrome Number (Easy)
+**steps** 
+1. Saved the initial value of `num` for comparison.
+2. Initialized `reversed_num` to 0.
+3. Started a loop while `num > 0`.
+4. Extracted the last digit of `num` using `num % 10`.
+5. Updated `reversed_num` to `reversed_num * 10 + last_digit`.
+6. Removed the last digit from `num` using integer division (`num //= 10`).
+7. Compared the original number with `reversed_num` to determine if it is a palindrome.
+
+
