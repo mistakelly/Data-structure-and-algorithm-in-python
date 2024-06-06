@@ -88,29 +88,45 @@ class Solution:
     def romanToInt(self, s: str) -> int:
         # HELP ME GOD.
 
-        roman_val = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
+        roman = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100, "D": 500, "M": 1000}
 
-        tmp_arr = []
+        # tmp_arr = []
 
-        i = 0
-        for val in s:
-            tmp_arr.append(roman_val[val])
+        # i = 0
+        # for val in s:
+        #     tmp_arr.append(roman_val[val])
 
-        while i < len(tmp_arr) - 1:
-            if tmp_arr[i] < tmp_arr[i + 1]:
-                tmp_arr[i] = tmp_arr[i + 1] - tmp_arr[i]
-                tmp_arr.pop(i + 1)
+        # while i < len(tmp_arr) - 1:
+        #     if tmp_arr[i] < tmp_arr[i + 1]:
+        #         tmp_arr[i] = tmp_arr[i + 1] - tmp_arr[i]
+        #         tmp_arr.pop(i + 1)
+        #     else:
+        #         i += 1
+
+        # return sum(tmp_arr)
+
+        total = 0
+        prev = 0
+        for char in reversed(s):
+            value = roman[char]
+
+            if value < prev:
+                total -= value
             else:
-                i += 1
+                total += value
 
-        return sum(tmp_arr)
+            prev = roman[char]
+
+        return total
 
 
 
-# roman = "III"
+
+roman = "III"
 # roman = 'LVIII'
-# roman = "MCMXCIV"
-roman = 'MMMCMXCIX'
+roman = "MCMXCIV"
+# roman = 'MMMCMXCIX'
+# roman = 'LVIII'
 model = Solution()
 result = model.romanToInt(roman)
 print(result)
