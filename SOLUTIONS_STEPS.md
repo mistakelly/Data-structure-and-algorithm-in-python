@@ -25,7 +25,18 @@
    - Otherwise, added `current_val` to `total`.
 5. Updated `prev_val` to `current_val` for the next iteration.
 
+### Problem 2: Longest Common Prefix (Easy)
+**Steps:**
+1. Initialized `prefix` as an empty string.
+2. Loop through each character index of the first string (`strs[0]`).
+3. For each index, loop through all strings in the list:
+   - **Check if the current index exceeds the length of the current string** or if the character at the current index in `strs[0]` does not match the corresponding character in any other string.
+   - **If either condition is true**, return the current `prefix`.
+4. **If all strings match the current character index**, append the character to `prefix`.
+5. Return the final `prefix` after processing all characters.
+
 ---
+
 
 # GENERAL PROBLEMS
 ## Problem 1: Palindrome Number (Easy)
