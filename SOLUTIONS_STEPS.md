@@ -15,7 +15,7 @@
 ---
 
 # STRINGS PROBLEMS
-### Problem 1: Roman to Integer (Medium)
+## Problem 1: Roman to Integer (Medium)
 **Steps:**
 1. Initialized `total` to 0 and `prev_val` to 0.
 2. Loop through the Roman numeral string in reversed order.
@@ -25,7 +25,7 @@
    - Otherwise, added `current_val` to `total`.
 5. Updated `prev_val` to `current_val` for the next iteration.
 
-### Problem 2: Longest Common Prefix (Easy)
+## Problem 2: Longest Common Prefix (Easy)
 **Steps:**
 1. Initialized `prefix` as an empty string.
 2. Loop through each character index of the first string (`strs[0]`).
