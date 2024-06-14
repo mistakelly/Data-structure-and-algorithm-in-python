@@ -1,3 +1,5 @@
+# Refer to SOLUTIONS.md for the solution explanation.
+
 from typing import Optional
 
 # Definition for singly-linked list.
@@ -40,21 +42,29 @@ class Solution:
 
         print("None")
 
+
+def list_from_array(arr):
+
+    head = tmp = None
+
+    for data in arr:
+        new_node = ListNode(data)
+        if head is None:
+            head = new_node
+            tmp = head
+
+        else:
+            tmp.next = new_node
+            tmp = tmp.next
+
+    return head
+
 # Example usage:
 sll = Solution()
-node1 = ListNode(1)
-node2 = ListNode(1)
-node3 = ListNode(2)
-node4 = ListNode(2)
-node5 = ListNode(3)
-node6 = ListNode(4)
-node1.next = node2
-node2.next = node3
-node3.next = node4
-node4.next = node5
-node5.next = node6
+arr = [1, 1, 2, 2, 3, 3, 4, 5]
 
-head = node1
+
+head = list_from_array(arr)
 sll.print_node(head)
 new_head = sll.deleteDuplicates(head)
 sll.print_node(new_head)
