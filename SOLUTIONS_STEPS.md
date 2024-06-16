@@ -38,6 +38,23 @@
 ---
 
 
+# LINKED LIST
+## Problem 1: Remove Duplicate (Easy).
+**steps** 
+1. Initialize a head pointer and a tmp pointer, both set to None.
+2. Loop through the list while tmp and tmp.next are not None:
+   *This ensures you’re not trying to access properties of a None object.
+3. Inside the loop, check if tmp.data is equal to tmp.next.data:
+   *This identifies duplicate nodes.
+4. If a duplicate is found:
+   *Update tmp.next to point to tmp.next.next. This effectively removes the duplicate node from the list by bypassing it.
+5. If no duplicate is found:
+   *Move tmp to the next node by setting tmp = tmp.next. This advances to the next node in the list.
+6. Continue the loop until all nodes are processed.
+
+
+---
+
 # GENERAL PROBLEMS
 ## Problem 1: Palindrome Number (Easy)
 **steps** 
