@@ -12,6 +12,16 @@
 3. Avoided using `pop()` to reduce time complexity.
 4. Tested the solution with various edge cases.
 
+## Problem 3: Best time to buy and sell stock (Easy)
+**steps** 
+1. initialize a buy and profit variables.
+2. Buy at first day eg == (buy = prices[0])
+3. Loop through array starting from day 1, since we already bought at day 0.
+4. Compare if any day price is lesser than initial bought price.
+5. if price is lower
+   * Rebuy on that day.
+6. else
+   * compare the potential_profit with the original profit, if potential profit is greater than original profit, update profit variable and finally return profit. 
 ---
 
 # STRINGS PROBLEMS
