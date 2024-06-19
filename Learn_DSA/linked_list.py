@@ -109,25 +109,48 @@ class SinglyLinkedList:
                 tmp.next = tmp.next.next
             else:
                 tmp = tmp.next
+        # tmp1, tmp2 = head1, head2
+
+    def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
+        # HELP ME GOD.
+
+        if not list1: return list2
+        
+        if not list2: return list1
+        # define head and tmp to None
+        head = tmp = None
+        while list1 and list2:
+            if list1.val <= list2.val:
+                if not head:
+                    tmp = list1
+                    head = tmp
+                else:
+                    tmp.next = list1
+                    tmp = tmp.next
+                list1 = list1.next
+            else:
+                if not head:
+                    tmp = list1
+                    head = tmp
+                else:
+                    tmp.next = list2
+                    tmp = tmp.next
+                list2 = list2.next
+
+
+        tmp.next = list1 if list1 else list2
+
+        return head
 
 
 
-        # return head
-
-# def convert_array_to_node(arr):
-#         head = None
-#         for data in reversed(arr):
-#             new_node = ListNode(data)
-
-#             if head is None:
-#                 head = new_node
-#             else:
-#                 new_node.next = head
-#                 head = new_node
-
-#         return head
 
 
+
+
+
+
+# construct node
 def convert_array_to_node(arr):
         head = tmp = None
         for data in arr:
@@ -145,12 +168,23 @@ def convert_array_to_node(arr):
 
 # Initialization and testing
 ll = SinglyLinkedList()
-arr = [1, 1, 2, 2, 3, 3, 4, 5]
+# arr = [1, 1, 2, 2, 3, 3, 4, 5]
+
+list1 = [1,2,4]
+list2 = [1,3,4]
+
+# list1 = [2]
+# list2 = [1]
 
 
-head = convert_array_to_node(arr)
-ll.deleteDuplicates(head)
-ll.print_nodes(head)
+head1  = convert_array_to_node(list1)
+head2 = convert_array_to_node(list2)
+
+merged_head = ll.mergeTwoLists(head1, head2)
+ll.print_nodes(merged_head)
+
+# ll.print_nodes(head1)
+# ll.print_nodes(head2)
 
 
 
