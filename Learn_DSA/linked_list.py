@@ -118,29 +118,47 @@ class SinglyLinkedList:
         
         if not list2: return list1
         # define head and tmp to None
-        head = tmp = None
+        # head = tmp = None
+        # while list1 and list2:
+        #     if list1.val <= list2.val:
+        #         if not head:
+        #             tmp = list1
+        #             head = tmp
+        #         else:
+        #             tmp.next = list1
+        #             tmp = tmp.next
+        #         list1 = list1.next
+        #     else:
+        #         if not head:
+        #             tmp = list1
+        #             head = tmp
+        #         else:
+        #             tmp.next = list2
+        #             tmp = tmp.next
+        #         list2 = list2.next
+
+
+        # tmp.next = list1 if list1 else list2
+
+
+        dummy = ListNode()
+        tmp = dummy
+
         while list1 and list2:
             if list1.val <= list2.val:
-                if not head:
-                    tmp = list1
-                    head = tmp
-                else:
-                    tmp.next = list1
-                    tmp = tmp.next
+                tmp.next = list1
+                tmp = tmp.next
                 list1 = list1.next
             else:
-                if not head:
-                    tmp = list1
-                    head = tmp
-                else:
-                    tmp.next = list2
-                    tmp = tmp.next
+                tmp.next = list2
+                tmp = tmp.next
                 list2 = list2.next
 
 
         tmp.next = list1 if list1 else list2
 
-        return head
+
+        return dummy.next
 
 
 
