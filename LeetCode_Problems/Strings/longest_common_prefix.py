@@ -23,6 +23,7 @@ Constraints:
 0 <= strs[i].length <= 200
 strs[i] consists of only lowercase English letters.
 """
+
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         # Initialize the prefix as an empty string
