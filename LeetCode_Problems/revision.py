@@ -42,20 +42,41 @@ class Solution:
 
 
 
-s = "A man, a plan, a canal: Panama"
+# s = "A man, a plan, a canal: Panama"
 
-print('s === ', s[::-1])
-import re
-polish_word = re.sub('[^a-zA-Z0-9]', '', s).lower()
+# print('s === ', s[::-1])
+# import re
+# polish_word = re.sub('[^a-zA-Z0-9]', '', s).lower()
 
-print('is true', polish_word == polish_word[::-1])
+# print('is true', polish_word == polish_word[::-1])
 
-print('polish_word', polish_word)
-p = "AmanaplanacanalPanama"
+# print('polish_word', polish_word)
+# p = "AmanaplanacanalPanama"
 # result = Solution()
 # print(result.isPalindrome(s))
+
+str1 = 'kelly'
+str2 = 'kelly'
+
+# print(str1 == str2)
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+
+        buy = prices[0]
+        profit = 0
+
+        for i in range(len(prices) -1):
+
+            if prices[i] < buy:
+                buy = prices[i]
+            
+            sell = prices[i + 1] - buy
+
+            if (sell > profit):
+                profit = sell
+
+        return profit
     
-
-
-
-
+result = Solution()
+print(result.maxProfit([7,1,5,3,6,4]))
